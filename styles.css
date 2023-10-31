@@ -1,0 +1,103 @@
+.container {
+    background-color: rgb(239, 239, 239);
+    background-size: 100% ;
+}
+
+.nav {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #efefef;
+    margin-left: 780px; /* Adjust margin as needed */
+}
+
+.nav a{
+    
+    display: inline;
+    color: #695e5c;
+    padding: 28px;
+    font-size: larger;
+}
+
+.home img{
+    width: 706px;
+    height: 690px;
+   margin-left: 800px;
+}
+
+.home {
+    display: flex;
+    flex: 1; 
+}
+
+.text{
+    margin-top: 150px;
+    font-size: 24px;
+    margin-left:-1100px ;
+   
+}
+
+.text h1, .text h3 {
+    color: #695e5c;
+}
+.about {
+    margin-top: 100px;
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+
+
+.about-text {
+    font-size: 24px;
+    margin-left: 20px; /* Add spacing between the image and text */
+    flex: 1; /* Allow text to take up the remaining space */
+    text-align: justify; /* Justify the text */
+    padding: 100px; /* Add padding to the content */
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid, adjust as needed */
+    gap: 10px; /* Add spacing between grid items (adjust as needed) */
+}
+
+.gallery-image {
+    width: 100%; /* Set the desired width for all images */
+    height: 500px; /* Set the desired height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.contact {
+    background-color: #c4bab8;
+    background-image: url("images/bg.jpg");
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: center;
+    height: 100vh;
+    
+}
+
+form{
+    margin-left: 200px; /* Add space from the left margin */
+}
+form input {
+    width:350%;
+    height: 50px;
+    display: block;
+    margin: 10px auto; /* Center-align and add spacing between elements */
+    border: none;
+    border-radius: 10px; 
+    
+}
+form textarea{
+    width:350%;
+    display: block;
+    margin: 10px auto; /* Center-align and add spacing between elements */
+    border-radius: 10px; 
+}
+
+form h2 {
+    text-align: center; /* Center-align the heading */
+    font-size: 24px;
+}
